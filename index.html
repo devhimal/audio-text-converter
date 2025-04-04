@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio to Text Converter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Audio to Text Converter</h1>
+
+      <div class="controls">
+        <button id="startBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop Recording</button>
+        <p id="status">Click 'Start Recording' to begin</p>
+      </div>
+
+      <div class="result-container">
+        <h2>Transcription:</h2>
+        <div id="result" class="result-box"></div>
+        <button id="copyBtn">Copy Text</button>
+        <button id="clearBtn">Clear Text</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
